@@ -1,0 +1,12 @@
+echo "Enter Main String: "
+read s
+echo "Enter substring : "
+read ss 
+prefix=${s%%$ss*}
+index=${#prefix}
+if [[ index -eq ${ss} ]];
+then 
+echo "Substring is not present in string "
+else
+echo "Index of substring in string :$index"
+fi
