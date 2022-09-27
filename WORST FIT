@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main()
+int main()
 {
 int f3[20],f2[20],r[20],r1[20],ms,bod,sb[20],nsb[20],nsb1[20],np,sp[20];
 int f[20],i,j,l,k,z[20],s=0;
